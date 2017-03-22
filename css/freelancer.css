@@ -83,6 +83,7 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+    padding-top: 100px;
 }
 
 header .container {
@@ -457,3 +458,10 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+/*slider*/
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/*slider*/
