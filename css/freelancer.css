@@ -3,12 +3,20 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+@font-face{
+    font-family:"DINCond-Bold";
+    src: url(../fonts/DIN-Condensed-Bold.otf);
+}
+@font-face{
+    font-family:"Renogare";
+    src: url(../fonts/Renogare.ttf);
+}
 body {
     overflow-x: hidden;
 }
 
 p {
+    font-family: "Renogare";
     font-size: 20px;
 }
 
@@ -29,11 +37,9 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5{
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "DINCond-Bold";
 }
 
 hr.star-light,
@@ -176,7 +182,7 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 80px;
 }
 
 section.success {
@@ -456,4 +462,63 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+/*contact section */
+.contact-section{
+    background-color: #B11939;
+}
+.contact-h2{
+    color: #002243;
+}
+.contact-phone{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+.contact-email{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 17px;
+}
+section h6{
+    font-family: "DINCond-Bold";
+    font-weight: 700;
+    font-size: 35px;
+    color: #ffffff;
+    display: inline-block;
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 30px;
+
+}
+input[type="email"]::-webkit-input-placeholder {
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 30px;
+
+}
+textarea::-webkit-input-placeholder{
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 30px;
+
+}
+input[type="text"]{
+    width: 100%;
+    height: 40px;
+}
+input[type="email"]{
+    width: 100%;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+    display: block;
 }
