@@ -464,7 +464,6 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
-<<<<<<< HEAD
 /*slider*/
 .full-screen {
   background-size: cover;
@@ -472,7 +471,6 @@ footer .footer-below {
   background-repeat: no-repeat;
 }
 /*slider*/
-=======
 
 /*contact section */
 .contact-section{
@@ -532,4 +530,3 @@ textarea{
     width: 100%;
     display: block;
 }
->>>>>>> master
