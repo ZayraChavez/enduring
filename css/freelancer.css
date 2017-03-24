@@ -478,7 +478,12 @@ footer .footer-below {
 
 /*contact section */
 .contact-section{
-    background-color: #B11939;
+    /*background-color: #B11939;*/
+    background: url('../img/6_Fondo_Contact_Us.jpg') no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .contact-h2{
     color: #002243;
