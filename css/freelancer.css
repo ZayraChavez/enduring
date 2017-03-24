@@ -39,7 +39,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #B11939;
 }
 
 h1,
@@ -560,4 +560,23 @@ textarea{
 .paragraph-who{
     text-align: justify;
 
+}
+.a-color:hover{
+    color: #ffffff !important;
+    background-color: #B11939 !important;
+       
+}
+.background-navbar {
+    background-color: #002243 !important;
+}
+.logoglobo
+{
+width: 130px
+height: 138px;
+margin-top: -42px;
+background-color: transparent;
+border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+border: 0px solid #000000;
 }
