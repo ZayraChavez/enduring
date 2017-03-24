@@ -11,13 +11,18 @@
     font-family:"Renogare";
     src: url(../fonts/Renogare.ttf);
 }
+@font-face{
+    font-family:"DINRegularAlternate";
+    src: url(../fonts/DINRegularAlternate.ttf);
+}
 body {
     overflow-x: hidden;
 }
 
 p {
-    font-family: "Renogare";
+    font-family: "DINRegularAlternate";
     font-size: 20px;
+    font-weight: bold;
 }
 
 p.small {
@@ -529,4 +534,11 @@ input[type="email"]{
 textarea{
     width: 100%;
     display: block;
+}
+.title-sections{
+    color:  #B11939;
+}
+.paragraph-who{
+    text-align: justify;
+
 }
