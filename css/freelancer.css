@@ -15,6 +15,10 @@
     font-family:"DINRegularAlternate";
     src: url(../fonts/DINRegularAlternate.ttf);
 }
+@font-face{
+    font-family: "MyriadPro";
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
 body {
     overflow-x: hidden;
 }
@@ -477,13 +481,15 @@ footer .footer-below {
 /*slider*/
 
 /*contact section */
+.top{
+    margin-top: 5%;
+}
 .contact-section{
-    /*background-color: #B11939;*/
     background: url('../img/6_Fondo_Contact_Us.jpg') no-repeat center center; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .contact-h2{
     color: #002243;
