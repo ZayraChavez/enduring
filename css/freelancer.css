@@ -197,7 +197,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #002243;
 }
 
 section.success a,
@@ -360,6 +360,12 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 30px;
+     background: url('../img/footer-above.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 footer .footer-col {
@@ -368,7 +374,11 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 5px 0;
-    background-color: #B11939;
+    background: url('../img/footer-below.jpg') no-repeat center center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .btn-social {
@@ -481,9 +491,6 @@ footer .footer-below {
 /*slider*/
 
 /*contact section */
-.top{
-    margin-top: 5%;
-}
 .contact-section{
     background: url('../img/6_Fondo_Contact_Us.jpg') no-repeat center center; 
     -webkit-background-size: cover;
