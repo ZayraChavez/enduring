@@ -1,0 +1,62 @@
+.btn-send{
+	border-radius: 0;
+    float: right;
+    background-color: #002243;
+  	font-family:"DINCond-Bold";
+  	font-size: 30px;
+  	color: white;
+	padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*footer section*/
+
+footer{
+	background-color: #002243;
+}
+.img-center{
+	margin: 0 auto;
+}
+footer h6{
+    font-family: "DINCond-Bold";
+    font-weight: 700;
+    font-size: 24px;
+    color: #ffffff;
+    display: inline-block;
+    float: left;
+}
+.footer-h6{
+	float: right !important;
+	margin-right: 10px;	
+}
+.contact-phone-footer{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    float: left;
+    margin-left: 9%;
+}
+.contact-email-footer{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    float: right;
+}
+.separator-footer{
+	margin-bottom: 10px;
+}
+.inline{
+	display: inline-block;
+}
+.logo{
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
