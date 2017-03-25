@@ -578,6 +578,7 @@ textarea{
 }
 .paragraph-who{
     text-align: justify;
+    color: white;
 
 }
 .a-color:hover{
@@ -735,4 +736,9 @@ footer h6{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.languages{
+ font-family:"DINRegularAlternate";
+ font-size: 12px;
+
 }
