@@ -97,8 +97,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
-    padding-top: 100px;
+    background: #002243;
+    padding-top: 82px;
 }
 
 header .container {
@@ -141,7 +141,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 13px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -576,14 +576,16 @@ textarea{
 .background-navbar {
     background-color: #002243 !important;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #002243 !important;
+}
 .logoglobo
 {
-width: 130px
-height: 138px;
-margin-top: -42px;
+width: 77%;
+margin-top: -6px;
 background-color: transparent;
-border-radius: 200px 200px 200px 200px;
--moz-border-radius: 200px 200px 200px 200px;
--webkit-border-radius: 200px 200px 200px 200px;
+border-radius: 100px 100px 100px 100px;
+-moz-border-radius: 100px 100px 100px 100px;
+-webkit-border-radius: 100px 100px 100px 100px;
 border: 0px solid #000000;
 }
