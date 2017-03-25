@@ -32,6 +32,15 @@ p {
 p.small {
     font-size: 16px;
 }
+p.display{
+    font-family: "DINRegularAlternate" !important;
+    font-size: 30px !important;
+    font-weight: lighter !important;
+    display: inline-block;
+    color: #ffffff;
+    margin: 0 3%;
+    letter-spacing: -2px !important;
+}
 
 a,
 a:hover,
@@ -49,6 +58,9 @@ h4,
 h5{
     text-transform: uppercase;
     font-family: "DINCond-Bold";
+}
+h3{
+    font-size: 40px;
 }
 
 hr.star-light,
