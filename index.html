@@ -39,61 +39,61 @@
         <!-- Navigation -->
         <nav class="navbar navbar-default background-menu navbar-fixed-top background-navbar">
             <div class="" style="background-color: #B11939; color:white; text-align: right;     margin-top: -13px;">
-                 <ul class="list-inline languages">
-                       
-                        <li >
-                            <a style="color:white;"  href="#">English </a>
-                        </li>
-                           <li>
-                            <a  style="color:white;"  href="#">Español</a>
-                        </li>
-        
-                    </ul>
+               <ul class="list-inline languages">
+
+                <li >
+                    <a style="color:white;"  href="#">English </a>
+                </li>
+                <li>
+                    <a  style="color:white;"  href="#">Español</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top"><img class="logoglobo" src="img/logo-enduring-menu.png"></a>
             </div>
-            <div class="container">
 
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header page-scroll">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#page-top"><img class="logoglobo" src="img/logo-enduring-menu.png"></a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="hidden">
-                            <a href="#page-top"></a>
-                        </li>
-                        <li class="page-scroll">
-                            <a class="a-color" href="#portfolio">WHO WE ARE </a>
-                        </li>
-                        <li class="page-scroll">
-                            <a class="a-color" href="#network">NETWORK</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a class="a-color" href="#security">SECURITY</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a class="a-color" href="#audio">AUDIO</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a class="a-color" href="#contact">CONTACT US</a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-collapse -->
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="a-color" href="#portfolio">WHO WE ARE </a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="a-color" href="#network">NETWORK</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="a-color" href="#security">SECURITY</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="a-color" href="#audio">AUDIO</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a class="a-color" href="#contact">CONTACT US</a>
+                    </li>
+                </ul>
             </div>
-            <!-- /.container-fluid -->
-        </nav>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-        <!-- Header -->
+    <!-- Header -->
  <!--    <header>
         <div class="container">
             <div class="row">
@@ -110,18 +110,28 @@
     </header> -->
     <!-- empieza slider -->
     <header>
-     <div id="mycarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-        <li data-target="#mycarousel" data-slide-to="2"></li>
-        <li data-target="#mycarousel" data-slide-to="3"></li>
-        <li data-target="#mycarousel" data-slide-to="4"></li>
-    </ol>
+       <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <br>
+              <button id="playButton" type="button" class="pauseandplay btn btn-default btn-xs">
+              <span class="glyphicon glyphicon-play"></span>
+          </button>
+          <button id="pauseButton" type="button" class="pauseandplay btn btn-default btn-xs">
+              <span class="glyphicon glyphicon-pause"></span>
+          </button>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+      </ol>
+
+          
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
         <div class="item">
             <img src="img/enduring-company.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
             <div class="carousel-caption">
@@ -157,6 +167,11 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+
+
+    <div id="carouselButtons">
+     
+    </div>
 </div>
 </header>
 
@@ -396,7 +411,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-6">
                         <a href="http://www.pastalaboratorio.com/" >
-                        <img src="img/logo-pasta-laboratorio-creativo.png">
+                            <img src="img/logo-pasta-laboratorio-creativo.png">
                         </a>
                         <p class="inline footer-font">Design By</p> <span class="inline footer-font-2 margin-footer-font">Pasta Laboratorio Creativo</span> <p class="inline footer-font-2">2017</p>
                     </div>
@@ -440,6 +455,20 @@
 
     <!-- slider JavaScript -->
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#mycarousel').carousel({
+                interval:3000,
+                pause: "false"
+            });
+            $('#playButton').click(function () {
+                $('#mycarousel').carousel('cycle');
+            });
+            $('#pauseButton').click(function () {
+                $('#mycarousel').carousel('pause');
+            });
+        });
+    </script>
 
 </body>
 

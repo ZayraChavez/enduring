@@ -742,3 +742,34 @@ footer h6{
  font-size: 12px;
 
 }
+/*#carouselButtons {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 9999;
+}*/
+.pauseandplay{
+    color: #002243;
+    background-color: #B11939;
+    border-color: #002243;
+}
+.pauseandplay:hover{
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+.pauseandplay:active :focus {
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+.pauseandplay:focus {
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+
+
+.carousel-indicators .active {
+    background-color: #002243 !important;
+}
