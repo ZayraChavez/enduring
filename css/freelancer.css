@@ -501,6 +501,37 @@ footer .footer-below {
   background-position: center;
   background-repeat: no-repeat;
 }
+/*#carouselButtons {
+  margin-left: 100px;
+  position: absolute;
+  bottom: 20px;
+  z-index: 9999;
+}*/
+.pauseandplay{
+    color: #002243;
+    background-color: #B11939;
+    border-color: #002243;
+}
+.pauseandplay:hover{
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+.pauseandplay:active :focus {
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+.pauseandplay:focus {
+    color: #B11939;
+    background-color: #002243;
+    border-color: #B11939;
+}
+
+
+.carousel-indicators .active {
+    background-color: #002243 !important;
+}
 /*slider*/
 
 /*contact section */
@@ -686,7 +717,6 @@ footer h6{
 }
 
 
-
 /*audio section*/
 .audio-h2{
     color: #B11939;
@@ -748,7 +778,6 @@ footer h6{
 .languages{
  font-family:"DINRegularAlternate";
  font-size: 12px;
-
 }
 .who-space{
     height: 150px;
@@ -820,5 +849,4 @@ footer h6{
 
 }
 @media (min-width:1024px) and (max-width: 1365px){
-
 }

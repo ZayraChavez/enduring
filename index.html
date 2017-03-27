@@ -59,7 +59,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="#page-top"><img id="logo" class="logoglobo" src="img/logo-enduring-menu.png">
-                    <img id="logo2" class="logoglobo logo2" src="img/DSC.png">
+                    <img id="logo2" class="logoglobo logo2" src="img/logo-enduring-down.png">
                 </a>
                 </div>
 
@@ -93,18 +93,28 @@
         </nav>
     <!-- empieza slider -->
     <header>
-     <div id="mycarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#mycarousel" data-slide-to="1"></li>
-        <li data-target="#mycarousel" data-slide-to="2"></li>
-        <li data-target="#mycarousel" data-slide-to="3"></li>
-        <li data-target="#mycarousel" data-slide-to="4"></li>
-    </ol>
+       <div id="mycarousel" class="carousel slide" data-ride="carousel">
+    
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <br>
+              <button id="playButton" type="button" class="pauseandplay btn btn-default btn-xs">
+              <span class="glyphicon glyphicon-play"></span>
+          </button>
+          <button id="pauseButton" type="button" class="pauseandplay btn btn-default btn-xs">
+              <span class="glyphicon glyphicon-pause"></span>
+          </button>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
+      </ol>
+
+          
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
         <div class="item">
             <img src="img/enduring-company.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
             <div class="carousel-caption">
@@ -140,6 +150,11 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+
+
+    <div id="carouselButtons">
+     
+    </div>
 </div>
 </header>
 
@@ -390,7 +405,7 @@
                     <div class="col-lg-2"></div>
                     <div class="col-lg-6">
                         <a href="http://www.pastalaboratorio.com/" >
-                        <img src="img/logo-pasta-laboratorio-creativo.png">
+                            <img src="img/logo-pasta-laboratorio-creativo.png">
                         </a>
                         <p class="inline footer-font">Design By</p> <span class="inline footer-font-2 margin-footer-font">Pasta Laboratorio Creativo</span> <p class="inline footer-font-2">2017</p>
                     </div>
@@ -434,6 +449,20 @@
 
     <!-- slider JavaScript -->
     <script src="js/index.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#mycarousel').carousel({
+                interval:3000,
+                pause: "false"
+            });
+            $('#playButton').click(function () {
+                $('#mycarousel').carousel('cycle');
+            });
+            $('#pauseButton').click(function () {
+                $('#mycarousel').carousel('pause');
+            });
+        });
+    </script>
 
 </body>
 
