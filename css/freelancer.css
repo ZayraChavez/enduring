@@ -504,7 +504,7 @@ footer .footer-below {
 
 /*contact section */
 .contact-section{
-    background: url('../img/6_Fondo_Contact_Us.jpg') no-repeat center center; 
+    background: url('../img/Fondo_Contact_Us.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -690,7 +690,7 @@ footer h6{
     color: #B11939;
 }
 .background-audio{
-     background: url('../img/5_Fondo_Audio.jpg') no-repeat center center; 
+     background: url('../img/Fondo-Audio-13.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -711,7 +711,7 @@ footer h6{
 
 /*security section*/
 .background-security{
-    background: url('../img/4_Fondo_Security.jpg') no-repeat center center; 
+    background: url('../img/FONDO-PRUEBA-12.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -720,7 +720,7 @@ footer h6{
 
 /*network section*/
 .background-network{
-    background: url('../img/3_Fondo_Network.jpg') no-repeat center center; 
+    background: url('../img/FONDO-PRUEBA-11.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -731,7 +731,7 @@ footer h6{
 }
 /*who we are section*/
 .background-we{
-    background: url('../img/2_Fondo_Who we are.jpg') no-repeat center center; 
+    background: url('../img/who-we-are.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
