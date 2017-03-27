@@ -23,3 +23,19 @@ $('.carousel').carousel({
   interval: 6000,
   pause: "false"
 });
+
+
+$(function(){
+  $("#logo2").css("display","none");
+  $(window).scroll(function(){
+    var aTop = 720;
+    if($(this).scrollTop()>=aTop){
+        $("#logo").css("display","none");
+        $("#logo2").css("display","block");
+    }
+    if($(this).scrollTop()<=aTop){
+        $("#logo").css("display","block");
+        $("#logo2").css("display","none");
+    }
+  });
+});

@@ -33,9 +33,9 @@ p.small {
     font-size: 16px;
 }
 p.display{
-    font-family: "DINRegularAlternate" !important;
-    font-size: 30px !important;
-    font-weight: lighter !important;
+    font-family: "DINCond-Bold" !important;
+    font-size: 34px !important;
+    font-weight: 100 !important;
     display: inline-block;
     color: #ffffff;
     margin: 0 3%;
@@ -377,6 +377,7 @@ footer .footer-above {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 349px;
 
 }
 
@@ -504,11 +505,12 @@ footer .footer-below {
 
 /*contact section */
 .contact-section{
-    background: url('../img/Fondo_Contact_Us.jpg') no-repeat center center; 
+    background: url('../img/p1.jpg') no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 805px;
 }
 .contact-h2{
     color: #002243;
@@ -737,8 +739,86 @@ footer h6{
     -o-background-size: cover;
     background-size: cover;
 }
+.we-mobile{
+    display: none;
+}
+.we-desktop{
+    display: block;
+}
 .languages{
  font-family:"DINRegularAlternate";
  font-size: 12px;
+
+}
+.who-space{
+    height: 150px;
+}
+
+/*Queries*/
+@media screen and  (min-width:361px) and (max-width: 639px){
+    .background-we{
+        background: none;
+        background-color: #002243;
+    }
+    .we-mobile{
+        display: block;
+        font-size: 70px;
+    }
+    .we-desktop{
+        display: none;
+    }
+    .who-space{
+        height: 0px;
+    }
+    .text-right{
+        text-align: center;
+    }
+    .paragraph-who{
+        padding: 0 30px;
+        font-size: 18px;
+    }
+
+}
+@media screen and  (min-width:320px) and (max-width: 360px){
+    .background-we{
+        background: none;
+        background-color: #002243;
+    }
+    .we-mobile{
+        display: block;
+        font-size: 70px;
+    }
+    .we-desktop{
+        display: none;
+    }
+    .who-space{
+        height: 0px;
+    }
+    .text-right{
+        text-align: center;
+    }
+    .paragraph-who{
+        padding: 0 30px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width:640px) and (max-width: 736px) {
+
+}
+@media (min-width:768px) and (max-width: 1023px){
+    .we-mobile{
+        display: block;
+        font-size: 70px;
+    }
+    .we-desktop{
+        display: none;
+    }
+     .text-right{
+        text-align: center;
+    }
+
+
+}
+@media (min-width:1024px) and (max-width: 1365px){
 
 }
