@@ -28,6 +28,11 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
+ul li a{
+    font-family: "DINCond-Bold";
+    font-size: 20px;
+    font-weight: bold;
+}
 
 p.small {
     font-size: 16px;
@@ -784,7 +789,7 @@ footer h6{
 }
 .languages{
  font-family:"DINRegularAlternate";
- font-size: 12px;
+ font-size: 14px;
 }
 .who-space{
     height: 150px;
