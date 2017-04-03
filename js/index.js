@@ -55,7 +55,7 @@ $(function(){
 
   $(document).ready(function(){
       $('#english').on('click',function(){
-        window.open("index.html","_self");
+        window.open("us.html","_self");
       });
       $('#espanol').on('click',function(){
         window.open("es.html","_self");
