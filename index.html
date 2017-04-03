@@ -91,8 +91,15 @@
             </div>
             <!-- /.container-fluid -->
         </nav>
+
     <!-- empieza slider -->
-<header>
+<!-- <header> -->
+
+
+        <div id="slider-desktop">
+
+    <!-- beging desktop -->
+   <!--  <header> -->
        <div id="mycarousel" class="carousel slide" data-ride="carousel">
     
           <!-- Indicators -->
@@ -101,13 +108,15 @@
             <li data-target="#mycarousel" data-slide-to="1"></li>
             <li data-target="#mycarousel" data-slide-to="2"></li>
             <li data-target="#mycarousel" data-slide-to="3"></li>
+            <li class="element-mobile" data-target="#mycarousel" data-slide-to="4"></li>
+            <li class="element-mobile" data-target="#mycarousel" data-slide-to="5"></li>
             <br>
-              <button id="playButton2" type="button" class="pauseandplay btn btn-default btn-xs">
-              <span class="glyphicon glyphicon-play"></span>
-          </button>
-          <button id="pauseButton2" type="button" class="pauseandplay btn btn-default btn-xs">
-              <span class="glyphicon glyphicon-pause"></span>
-          </button>
+            <button id="playButton" type="button" class="pauseandplay btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-play"></span>
+            </button>
+            <button id="pauseButton2" type="button" class="pauseandplay btn btn-default btn-xs">
+                <span class="glyphicon glyphicon-pause"></span>
+            </button>
 
       </ol>
 
@@ -121,25 +130,73 @@
 
             </div>
         </div>
-        <div class="item">
-            <img src="img/protect-your-stuff.jpg" data-color="firebrick" alt="Second Image">
+          <div class="item element-mobile">
+             <img  src="img/slide-mobile-1.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
             <div class="carousel-caption">
 
             </div>
         </div>
+
         <div class="item">
-            <img src="img/packages.jpg" data-color="violet" alt="Third Image">
+            <img src="img/slider-2.jpg" data-color="firebrick" alt="Second Image">
+             <div class="carousel-caption">
+
+            </div>
+          
+        </div>
+          <div class="item element-mobile">
+             <img class="element-mobile" src="img/slide-mobile-2.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
             <div class="carousel-caption">
 
             </div>
         </div>
+
         <div class="item">
-            <img src="img/services-in-all-houston.jpg" data-color="lightgreen" alt="Fourth Image">
+            <img src="img/slider-3.jpg" data-color="violet" alt="Third Image">
+             <div class="carousel-caption">
+
+            </div>
+         
+        </div>
+
+          <div class="item element-mobile">
+             <img class="element-mobile" src="img/slide-mobile-3.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
             <div class="carousel-caption">
+
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="img/slider-4.jpg" data-color="lightgreen" alt="Fourth Image">
+             <div class="carousel-caption">
+
+            </div>
+          
+        </div>
+
+          <div class="item element-mobile">
+             <img src="img/slide-mobile-4.jpg" data-color="lightblue" alt="Enduring-Company-Slider">
+            <div class="carousel-caption">
+
+            </div>
+        </div>
+
+
+         <div class="item element-mobile">
+             <img  src="img/slide-mobile-5.jpg" data-color="firebrick" alt="Second Image">
+              <div class="carousel-caption">
+
+            </div>
+        </div>
+         <div class="item element-mobile">
+             <img  src="img/slide-mobile-6.jpg" data-color="firebrick" alt="Second Image">
+              <div class="carousel-caption">
 
             </div>
         </div>
     </div>
+
+
 
     <!-- Controls -->
     <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
@@ -150,8 +207,23 @@
         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
+
+
+  <!--   <div id="carouselButtons">
+     
+    </div> -->
 </div>
-</header>
+</div>
+<!-- </header> -->
+<!-- end slider desktop -->
+
+
+
+
+<!-- mobile begins -->
+
+
+<!-- end slider mobile -->
 
 
 <!-- Portfolio Grid Section -->
@@ -447,7 +519,7 @@
 
     <!-- slider JavaScript -->
     <script src="js/index.js"></script>
-    <script type="text/javascript">
+    <script >
         $(function () {
             $('#mycarousel').carousel({
                 interval:3000,
@@ -460,6 +532,16 @@
                 $('#mycarousel').carousel('pause');
             });
         });
+        if (screen.width < 769) {
+        $(".element-mobile").css("display","block");
+   
+
+    }
+    else {
+        $(".element-mobile").css("display","none");
+   
+
+    }
     </script>
 
 </body>
