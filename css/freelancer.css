@@ -28,6 +28,21 @@ p {
     font-size: 20px;
     font-weight: bold;
 }
+
+#video1 {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -10;
+    visibility: visible;
+}
+
+
+
 ul li a{
     font-family: "DINCond-Bold";
     font-size: 20px;
@@ -567,7 +582,7 @@ footer .footer-below {
 section h6{
     font-family: "DINCond-Bold";
     font-weight: 700;
-    font-size: 35px;
+    font-size: 32px;
     color: #ffffff;
     display: inline-block;
 }
@@ -696,6 +711,7 @@ footer h6{
     margin-right: 7px;
     margin-bottom: 10px;
     float: right;
+    margin-left: 2%;
 }
 .separator-footer{
     margin-bottom: 10px;
@@ -713,7 +729,7 @@ footer h6{
     font-family: "MyriadPro";
     font-size: 15px;
     font-weight: normal;
-    margin-left: 20%;
+    margin-left: 7%;
 }
 .footer-font-2{
     font-family: "MyriadPro";
@@ -794,6 +810,9 @@ footer h6{
 .who-space{
     height: 150px;
 }
+.jump{
+    display: none;
+}
 
 /*Queries*/
 @media screen and  (min-width:361px) and (max-width: 639px){
@@ -824,9 +843,44 @@ footer h6{
     section h6{
         font-size: 30px;
     }
-
+    .background-network{
+        background: none;
+        background-color: #002243;
+    }
+    .background-security{
+        background: none;
+        background-color: #002243;
+    }
+    .background-audio{
+        background: none;
+        background-color: #002243;
+    }
+    .contact-section{
+        background: none;
+        background-color: #B11939;
+    }
+    footer .footer-above{
+        background: none;
+        background-color: #002243;
+    }
+    footer .footer-below{
+        background: none;
+        background-color: #B11939;
+    }
+    .contact-phone-footer {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    float: left;
+    margin-left: 15%;
+    }
+    .jump{
+        display: block;
+    }
 }
-@media screen and  (min-width:320px) and (max-width: 360px){
+@media screen and  (min-width:320px) and (max-width: 639px){
     .background-we{
         background: none;
         background-color: #002243;
@@ -870,6 +924,42 @@ footer h6{
     }
     p.display{
         font-size: 30px;
+    }
+    .background-network{
+        background: none;
+        background-color: #002243;
+    }
+    .background-security{
+        background: none;
+        background-color: #002243;
+    }
+    .background-audio{
+        background: none;
+        background-color: #002243;
+    }
+    .contact-section{
+        background: none;
+        background-color: #B11939;
+    }
+    footer .footer-above{
+        background: none;
+        background-color: #002243;
+    }
+    footer .footer-below{
+        background: none;
+        background-color: #B11939;
+    }   
+    .contact-phone-footer {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 7px;
+    float: left;
+    margin-left: 15%;
+    }
+    .jump{
+        display: block;
     }
 }
 @media screen and (min-width:640px) and (max-width: 736px) {
