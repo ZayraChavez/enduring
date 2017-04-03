@@ -130,7 +130,7 @@ header {
     text-align: center;
     color: #fff;
     background: #002243;
-    padding-top: 82px;
+    padding-top: 22px;
 }
 
 header .container {
@@ -882,6 +882,12 @@ footer h6{
     .jump{
         display: block;
     }
+    header {
+    text-align: center;
+    color: #fff;
+    background: #002243;
+    padding-top: 0px;
+    }
 }
 @media screen and  (min-width:320px) and (max-width: 639px){
     .background-we{
@@ -963,6 +969,12 @@ footer h6{
     }
     .jump{
         display: block;
+    }
+    header {
+    text-align: center;
+    color: #fff;
+    background: #002243;
+    padding-top: 0px;
     }
 }
 @media screen and (min-width:320px) and (max-width: 768px) {

@@ -4,11 +4,46 @@ $item.eq(0).addClass('active');
 $item.height($wHeight); 
 $item.addClass('full-screen');
 
-  if (screen.width > 500) {
-$("#prueba").attr("src","img/enduring-company.jpg");
+if (screen.width > 500) {
+$("#img1").attr("src","img/slider-1.jpg");
+$("#img2").attr("src","img/slider-2.jpg");
+$("#img3").attr("src","img/slider-3.jpg");
+$("#img4").attr("src","img/slider-4.jpg");
+$("#mobile-img1").detach();
+$("#mobile-img2").detach();
+$(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='1'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='2'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='3'></li>"+
+                "<br>"+
+                "<button id='playButton' type='button' class='pauseandplay btn btn-default btn-xs'>"+
+                "<span class='glyphicon glyphicon-play'></span>"+
+                "</button>"+
+                "<button id='pauseButton2' type='button' class='pauseandplay btn btn-default btn-xs'>"+
+                "<span class='glyphicon glyphicon-pause'></span>"+
+                "</button>");
+
 }
 if (screen.width < 500) {
-$("#prueba").attr("src","img/4_Fondo_Security.jpg");
+$("#img1").attr("src","img/slide-mobile-1.jpg");
+$("#img2").attr("src","img/slide-mobile-2.jpg");
+$("#img3").attr("src","img/slide-mobile-3.jpg");
+$("#img4").attr("src","img/slide-mobile-4.jpg");
+$("#img5").attr("src","img/slide-mobile-5.jpg");
+$("#img6").attr("src","img/slide-mobile-6.jpg");
+$(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='1'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='2'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='3'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='4'></li>"+
+                "<li data-target='#mycarousel' data-slide-to='5'></li>"+
+                "<br>"+
+                "<button id='playButton' type='button' class='pauseandplay btn btn-default btn-xs'>"+
+                "<span class='glyphicon glyphicon-play'></span>"+
+                "</button>"+
+                "<button id='pauseButton2' type='button' class='pauseandplay btn btn-default btn-xs'>"+
+                "<span class='glyphicon glyphicon-pause'></span>"+
+                "</button>");
 }
 
 $('.carousel img').each(function() {
