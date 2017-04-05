@@ -5,10 +5,10 @@ $item.height($wHeight);
 $item.addClass('full-screen');
 
 if (screen.width > 500) {
-$("#img1").attr("src","img/SliderEsp-1.jpg");
-$("#img2").attr("src","img/SliderEsp-2.jpg");
-$("#img3").attr("src","img/SliderEsp-3.jpg");
-$("#img4").attr("src","img/SliderEsp-4.jpg");
+$("#img1").attr("src","img/slideresp-1.jpg");
+$("#img2").attr("src","img/slideresp-2.jpg");
+$("#img3").attr("src","img/slideresp-3.jpg");
+$("#img4").attr("src","img/slideresp-4.jpg");
 $("#mobile-img1").detach();
 $("#mobile-img2").detach();
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+

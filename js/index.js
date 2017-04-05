@@ -46,6 +46,7 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "</button>");
 }
 
+
 $('.carousel img').each(function() {
   var $src = $(this).attr('src');
   var $color = $(this).attr('data-color');

@@ -529,29 +529,30 @@ footer .footer-below {
   z-index: 9999;
   }*/
   .pauseandplay{
-    color: #002243;
-    background-color: #B11939;
-    border-color: #002243;
+    color: #ffffff !important;
+    background-color: transparent;
+    border: none !important;
+
 }
 .pauseandplay:hover{
-    color: #B11939;
-    background-color: #002243;
-    border-color: #B11939;
+    color: #B11939 !important;
+    background-color: transparent !important;
+     border: none !important;
 }
 .pauseandplay:active :focus {
-    color: #B11939;
-    background-color: #002243;
-    border-color: #B11939;
+    color: #B11939 !important;
+    background-color: transparent !important;
+      border: none !important;
 }
 .pauseandplay:focus {
-    color: #B11939;
-    background-color: #002243;
-    border-color: #B11939;
+    color: #B11939 !important;
+    background-color: transparent !important;
+      border: none !important;
 }
 
 
 .carousel-indicators .active {
-    background-color: #002243 !important;
+    background-color: #ffffff !important;
 }
 /*slider*/
 
@@ -700,6 +701,7 @@ footer h6{
     float: right !important;
     margin-right: 10px; 
 }
+
 .contact-phone-footer{
     width: 40px;
     height: 40px;
@@ -717,6 +719,7 @@ footer h6{
     margin-bottom: 10px;
     float: right;
     /*margin-left: 2%;*/
+
 }
 .separator-footer{
     margin-bottom: 10px;
@@ -810,7 +813,8 @@ footer h6{
 }
 .languages{
    font-family:"DINRegularAlternate";
-   font-size: 14px;
+   font-size: 12px;
+   padding: 2px !important;
 }
 .who-space{
     height: 150px;
@@ -821,6 +825,20 @@ footer h6{
 
 /*Queries*/
 @media screen and  (min-width:361px) and (max-width: 639px){
+    .font-footer{
+        font-size: 12px !important;
+         float: none !important;
+    margin-right: 0px !important; 
+    }
+    .footer-imgs{
+    width: 30px !important;
+    height: 30px !important;
+    display: block !important;
+    margin-bottom: 10px !important;
+    margin-right: 0 !important;
+    float: none !important;
+    margin-left: 0 !important;
+    }
     .logoglobo2{
         margin-top: -19px !important;
     }
@@ -903,6 +921,20 @@ footer h6{
     }
 }
 @media screen and  (min-width:320px) and (max-width: 768px){
+   .font-footer{
+        font-size: 12px !important;
+         float: none !important;
+    margin-right: 0px !important; 
+    display: block !important;
+    }
+    .footer-imgs{
+    width: 30px !important;
+    height: 30px !important;
+    margin-bottom: 7px !important;
+    margin-right: 0 !important;
+    float: none !important;
+    margin-left: 0 !important;
+    }
  .languages-top{
     margin-top: 1px !important;
 }
