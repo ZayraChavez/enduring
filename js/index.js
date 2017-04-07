@@ -43,6 +43,10 @@ $("#img3").attr("src","img/slider-celv-3.jpg");
 $("#img4").attr("src","img/slider-celv-4.jpg");
 $("#img5").attr("src","img/slider-celv-5.jpg");
 $("#img6").attr("src","img/slider-celv-6.jpg");
+$("#bose").removeClass("bose");
+$("#netgear").removeClass("netgear");
+$("#RemoveText").removeClass("text-center");
+$(".bolita-rosa2").css("display","inline-block");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
