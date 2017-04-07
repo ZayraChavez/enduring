@@ -4,6 +4,18 @@ $item.eq(0).addClass('active');
 $item.height($wHeight); 
 $item.addClass('full-screen');
 
+   window.onorientationchange = function() { 
+        var orientation = window.orientation; 
+            switch(orientation) { 
+                case 0:
+                case 90:
+                case -90: window.location.reload(); 
+                break; }
+
+                }; 
+
+                
+
 if (screen.width > 500) {
 $("#img1").attr("src","img/slider-1.jpg");
 $("#img2").attr("src","img/slider-2.jpg");
