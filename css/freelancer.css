@@ -563,6 +563,7 @@ footer .footer-below {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 770px;
 }
 .contact-h2{
     color: #002243;
@@ -580,6 +581,7 @@ footer .footer-below {
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 17px;
+    margin-left: 7%;
 }
 section h6{
     font-family: "DINCond-Bold";
