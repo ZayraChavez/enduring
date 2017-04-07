@@ -25,12 +25,12 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
 
 }
 if (screen.width < 500) {
-$("#img1").attr("src","img/slide-mobile-1.jpg");
-$("#img2").attr("src","img/slide-mobile-2.jpg");
-$("#img3").attr("src","img/slide-mobile-3.jpg");
-$("#img4").attr("src","img/slide-mobile-4.jpg");
-$("#img5").attr("src","img/slide-mobile-5.jpg");
-$("#img6").attr("src","img/slide-mobile-6.jpg");
+$("#img1").attr("src","img/slider-celv-1.jpg");
+$("#img2").attr("src","img/slider-celv-2.jpg");
+$("#img3").attr("src","img/slider-celv-3.jpg");
+$("#img4").attr("src","img/slider-celv-4.jpg");
+$("#img5").attr("src","img/slider-celv-5.jpg");
+$("#img6").attr("src","img/slider-celv-6.jpg");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
