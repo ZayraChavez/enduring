@@ -60,7 +60,7 @@ p.display{
     display: inline-block;
     color: #ffffff;
     margin: 0 1%;
-    letter-spacing: -2px !important;
+    letter-spacing: 1px !important;
 }
 
 a,
@@ -589,6 +589,7 @@ section h6{
     font-size: 32px;
     color: #ffffff;
     display: inline-block;
+    letter-spacing: 1px !important;
 }
 input[type="text"]::-webkit-input-placeholder {
   color: #002243;
