@@ -23,6 +23,8 @@ $("#img3").attr("src","img/slider-3.jpg");
 $("#img4").attr("src","img/slider-4.jpg");
 $("#mobile-img1").detach();
 $("#mobile-img2").detach();
+$(".col-xs-8").removeClass("col-xs-offset-2");
+$(".col-xs-8").removeClass("col-xs-8");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
@@ -44,8 +46,13 @@ $("#img4").attr("src","img/slider-celv-4.jpg");
 $("#img5").attr("src","img/slider-celv-5.jpg");
 $("#img6").attr("src","img/slider-celv-6.jpg");
 $("#bose").removeClass("bose");
+$("#alarm").removeClass("bose");
+$("#dsc").removeClass("bose");
+$("#bose2").removeClass("bose");
 $("#netgear").removeClass("netgear");
 $("#RemoveText").removeClass("text-center");
+$("#RemoveText2").removeClass("text-center");
+$("#RemoveText3").removeClass("text-center");
 $(".bolita-rosa2").css("display","inline-block");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+

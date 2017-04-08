@@ -537,17 +537,17 @@ footer .footer-below {
 .pauseandplay:hover{
     color: #B11939 !important;
     background-color: transparent !important;
-     border: none !important;
+    border: none !important;
 }
 .pauseandplay:active :focus {
     color: #B11939 !important;
     background-color: transparent !important;
-      border: none !important;
+    border: none !important;
 }
 .pauseandplay:focus {
     color: #B11939 !important;
     background-color: transparent !important;
-      border: none !important;
+    border: none !important;
 }
 
 
@@ -758,11 +758,11 @@ footer h6{
     color: #B11939;
 }
 .background-audio{
-   background: url('../img/Fondo-Audio-13.jpg') no-repeat center center; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
+ background: url('../img/Fondo-Audio-13.jpg') no-repeat center center; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
 .bolita-rosa{
     margin-bottom: 1%;
@@ -819,9 +819,9 @@ footer h6{
     display: block;
 }
 .languages{
-   font-family:"DINRegularAlternate";
-   font-size: 12px;
-   padding: 2px !important;
+ font-family:"DINRegularAlternate";
+ font-size: 12px;
+ padding: 2px !important;
 }
 .who-space{
     height: 150px;
@@ -834,12 +834,20 @@ footer h6{
 }
 
 /*Queries*/
-@media screen and  (min-width:361px) and (max-width: 639px){
-    .logoglobo2{
-        margin-top: -19px !important;
+@media screen and  (min-width:300px) and (max-width: 389px){
+    .contact-phone2{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    section h2 {
+        margin: 0;
+        font-size: 60px;
     }
     .languages-top{
         margin-top: 1px !important;
+    }
+    .logoglobo2{
+        margin-top: -19px !important;
     }
     .background-we{
         background: none;
@@ -847,7 +855,7 @@ footer h6{
     }
     .we-mobile{
         display: block;
-        font-size: 70px;
+        font-size: 60px;
     }
     .we-desktop{
         display: none;
@@ -866,7 +874,28 @@ footer h6{
         display: none;
     }
     section h6{
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .contact-email {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 0px; 
+        margin-bottom: 0px; 
+    }
+    .contact-phone{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    p.display{
+        font-size: 20px;
+        text-align: left;
+    }
+    .routing{
+        width: 89%;
     }
     .background-network{
         background: none;
@@ -891,7 +920,7 @@ footer h6{
     footer .footer-below{
         background: none;
         background-color: #B11939;
-    }
+    }   
     .contact-phone-footer {
         width: 40px;
         height: 40px;
@@ -915,132 +944,155 @@ footer h6{
         color: white !important;
         width: 100%;
     }
+    .element-mobile{
+        display: block;
+    }
+    .element-desktop{
+        display: none;
+    }
+    .languages-top{
+        margin-top: 1px !important;
+    }
+    .logoglobo2{
+        margin-top: -19px !important;
+    }
+    .inline{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .phone{
+        display: inline-block;
+    }
 }
-@media screen and  (min-width:320px) and (max-width: 768px){
-section h2 {
-    margin: 0;
-    font-size: 60px;
-}
- .languages-top{
-    margin-top: 1px !important;
-}
-.logoglobo2{
-    margin-top: -19px !important;
-}
-.background-we{
-    background: none;
-    background-color: #002243;
-}
-.we-mobile{
-    display: block;
-    font-size: 60px;
-}
-.we-desktop{
-    display: none;
-}
-.who-space{
-    height: 0px;
-}
-.text-right{
-    text-align: center;
-}
-.paragraph-who{
-    padding: 0 30px;
-    font-size: 18px;
-}
-.bolita-rosa{
-    display: none;
-}
-section h6{
-    font-size: 22px;
-}
-.contact-email {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-right: 0px; 
-    margin-bottom: 0px; 
-}
-.contact-phone{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    margin-right: 0px;
-    margin-bottom: 0px;
-}
-p.display{
-    font-size: 24px;
-    text-align: left;
-}
-.background-network{
-    background: none;
-    background-color: #002243;
-}
-.background-security{
-    background: none;
-    background-color: #002243;
-}
-.background-audio{
-    background: none;
-    background-color: #002243;
-}
-.contact-section{
-    background: none;
-    background-color: #B11939;
-}
-footer .footer-above{
-    background: none;
-    background-color: #002243;
-}
-footer .footer-below{
-    background: none;
-    background-color: #B11939;
-}   
-.contact-phone-footer {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    margin-bottom: 10px;
-    margin-right: 7px;
-    float: left;
-    margin-left: 15%;
-}
-.jump{
-    display: block;
-}
-header {
-    text-align: center;
-    color: #fff;
-    background: #002243;
-    padding-top: 0px;
-}
-.background-navbar {
-    background-color: #002243 !important;
-    color: white !important;
-    width: 100%;
-}
-.element-mobile{
-    display: block;
-}
-.element-desktop{
-    display: none;
-}
-.languages-top{
-    margin-top: 1px !important;
-}
-.logoglobo2{
-    margin-top: -19px !important;
-}
-.inline{
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-.phone{
-    display: inline-block;
-}
+@media screen and  (min-width:390px) and (max-width: 768px){
+    .contact-phone2{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    section h2 {
+        margin: 0;
+        font-size: 60px;
+    }
+    .languages-top{
+        margin-top: 1px !important;
+    }
+    .logoglobo2{
+        margin-top: -19px !important;
+    }
+    .background-we{
+        background: none;
+        background-color: #002243;
+    }
+    .we-mobile{
+        display: block;
+        font-size: 60px;
+    }
+    .we-desktop{
+        display: none;
+    }
+    .who-space{
+        height: 0px;
+    }
+    .text-right{
+        text-align: center;
+    }
+    .paragraph-who{
+        padding: 0 30px;
+        font-size: 18px;
+    }
+    .bolita-rosa{
+        display: none;
+    }
+    section h6{
+        font-size: 22px;
+    }
+    .contact-email {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 0px; 
+        margin-bottom: 0px; 
+    }
+    .contact-phone{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+    p.display{
+        font-size: 24px;
+        text-align: left;
+    }
+    .background-network{
+        background: none;
+        background-color: #002243;
+    }
+    .background-security{
+        background: none;
+        background-color: #002243;
+    }
+    .background-audio{
+        background: none;
+        background-color: #002243;
+    }
+    .contact-section{
+        background: none;
+        background-color: #B11939;
+    }
+    footer .footer-above{
+        background: none;
+        background-color: #002243;
+    }
+    footer .footer-below{
+        background: none;
+        background-color: #B11939;
+    }   
+    .contact-phone-footer {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        margin-bottom: 10px;
+        margin-right: 7px;
+        float: left;
+        margin-left: 15%;
+    }
+    .jump{
+        display: block;
+    }
+    header {
+        text-align: center;
+        color: #fff;
+        background: #002243;
+        padding-top: 0px;
+    }
+    .background-navbar {
+        background-color: #002243 !important;
+        color: white !important;
+        width: 100%;
+    }
+    .element-mobile{
+        display: block;
+    }
+    .element-desktop{
+        display: none;
+    }
+    .languages-top{
+        margin-top: 1px !important;
+    }
+    .logoglobo2{
+        margin-top: -19px !important;
+    }
+    .inline{
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    .phone{
+        display: inline-block;
+    }
 }
 @media (min-width:769px) and (max-width: 1023px){
- .languages-top{
+   .languages-top{
     margin-top: 1px !important;
 }
 .logoglobo2{
