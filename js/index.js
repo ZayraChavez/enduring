@@ -14,8 +14,6 @@ $item.addClass('full-screen');
 
                 }; 
 
-                
-
 if (screen.width > 500) {
 $("#img1").attr("src","img/slider-1.jpg");
 $("#img2").attr("src","img/slider-2.jpg");
