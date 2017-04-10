@@ -963,9 +963,33 @@ footer h6{
     .phone{
         display: inline-block;
     }
+.contact-email-footer {
+    width: 20px !important;
+    height: 20px !important;
+}
+.contact-phone-footer {
+    width: 20px !important;
+    height: 20px !important;
+}
+.footer-above h6{
+font-size: 14px !important;
+}
+
 }
 @media screen and  (min-width:390px) and (max-width: 768px){
-    .contact-phone2{
+.contact-email-footer {
+    width: 20px !important;
+    height: 20px !important;
+}
+.contact-phone-footer {
+    width: 20px !important;
+    height: 20px !important;
+}
+.footer-above h6{
+font-size: 14px !important;
+}
+    
+.contact-phone2{
         margin-left: 1%;
         margin-right: 1%;
     }
