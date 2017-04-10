@@ -835,6 +835,28 @@ footer h6{
 
 /*Queries*/
 @media screen and  (min-width:300px) and (max-width: 389px){
+    input[type="text"]::-webkit-input-placeholder {
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 22px;
+
+}
+input[type="email"]::-webkit-input-placeholder {
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 22px;
+
+}
+textarea::-webkit-input-placeholder{
+  color: #002243;
+  font-family:"DINCond-Bold";
+  font-size: 22px;
+
+}
+    .paragraph-who {
+    text-align: left;
+    color: white;
+    }
     .contact-phone2{
         margin-left: 1%;
         margin-right: 1%;
@@ -874,7 +896,7 @@ footer h6{
         display: none;
     }
     section h6{
-        font-size: 20px;
+        font-size: 16px;
     }
     .contact-email {
         width: 30px;
@@ -977,6 +999,10 @@ font-size: 14px !important;
 
 }
 @media screen and  (min-width:390px) and (max-width: 768px){
+    .paragraph-who {
+    text-align: left;
+    color: white;
+    }
 .contact-email-footer {
     width: 20px !important;
     height: 20px !important;
