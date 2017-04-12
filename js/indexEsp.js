@@ -2,7 +2,13 @@ var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
-$item.addClass('img-responsive');
+if (screen.width > 600) {
+  $item.addClass('img-responsive');
+$item.css("height","638");
+} 
+if (screen.width < 600) {
+    $item.addClass('full-screen');
+}
 
    window.onorientationchange = function() { 
         var orientation = window.orientation; 
@@ -15,7 +21,7 @@ $item.addClass('img-responsive');
                 }; 
 
 
-if (screen.width > 500) {
+if (screen.width > 600) {
 $("#img1").attr("src","img/slideresp-1.jpg");
 $("#img2").attr("src","img/slideresp-2.jpg");
 $("#img3").attr("src","img/slideresp-3.jpg");
@@ -41,7 +47,7 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "</button>");
 
 }
-if (screen.width < 500) {
+if (screen.width < 600) {
 $("#img1").attr("src","img/slider-mobv-1.jpg");
 $("#img2").attr("src","img/slider-mobv-2.jpg");
 $("#img3").attr("src","img/slider-mobv-3.jpg");
@@ -61,6 +67,8 @@ $(".pasta-text-cellphone").css("display","inline-block");
 $(".number-cellphone").css("display","block");
 $(".number-web").css("display","none");
 $(".pasta-text").css("display","none");
+$(".tamanoubitiqui").removeClass("tamanoubitiqui");
+$(".tamanoluxul").removeClass("tamanoluxul");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
