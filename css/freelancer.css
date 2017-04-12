@@ -602,19 +602,19 @@ section h6{
 input[type="text"]::-webkit-input-placeholder {
   color: #002243;
   font-family:"DINCond-Bold";
-  font-size: 30px;
+  font-size: 26px;
 
 }
 input[type="email"]::-webkit-input-placeholder {
   color: #002243;
   font-family:"DINCond-Bold";
-  font-size: 30px;
+  font-size: 26px;
 
 }
 textarea::-webkit-input-placeholder{
   color: #002243;
   font-family:"DINCond-Bold";
-  font-size: 30px;
+  font-size: 26px;
 
 }
 input[type="text"]{
