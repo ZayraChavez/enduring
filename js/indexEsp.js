@@ -2,8 +2,7 @@ var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
-$item.addClass('full-screen');
-
+$item.addClass('img-responsive');
 
    window.onorientationchange = function() { 
         var orientation = window.orientation; 
@@ -27,6 +26,8 @@ $(".number-cellphone").css("display","none");
 $(".number-web").css("display","block");
 $("#mobile-img1").detach();
 $("#mobile-img2").detach();
+$(".col-xs-8").removeClass("col-xs-offset-2");
+$(".col-xs-8").removeClass("col-xs-8");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
@@ -41,7 +42,6 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
 
 }
 if (screen.width < 500) {
-  
 $("#img1").attr("src","img/slider-mobv-1.jpg");
 $("#img2").attr("src","img/slider-mobv-2.jpg");
 $("#img3").attr("src","img/slider-mobv-3.jpg");
@@ -75,6 +75,9 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "<span class='glyphicon glyphicon-pause'></span>"+
                 "</button>");
 }
+if (screen.width <768) {
+  window.open ('us.html')
+}
 
 $('.carousel img').each(function() {
   var $src = $(this).attr('src');
@@ -98,7 +101,7 @@ $('.carousel').carousel({
 
 
 $(function(){
-  if (screen.width < 500) {
+  if (screen.width < 600) {
     $("#logo").detach();
   }
   if (screen.width > 500) {

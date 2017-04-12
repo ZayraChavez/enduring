@@ -2,7 +2,8 @@ var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
-$item.addClass('full-screen');
+$item.addClass('img-responsive');
+// $item.addClass('full-screen');
 
    window.onorientationchange = function() { 
         var orientation = window.orientation; 
@@ -13,10 +14,9 @@ $item.addClass('full-screen');
                 break; }
 
                 }; 
+        
 
-                
-
-if (screen.width > 500) {
+if (screen.width > 600) {
 $("#img1").attr("src","img/slider-1.jpg");
 $("#img2").attr("src","img/slider-2.jpg");
 $("#img3").attr("src","img/slider-3.jpg");
@@ -42,7 +42,7 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "</button>");
 
 }
-if (screen.width < 500) {
+if (screen.width < 600) {
 $("#img1").attr("src","img/slider-celv-1.jpg");
 $("#img2").attr("src","img/slider-celv-2.jpg");
 $("#img3").attr("src","img/slider-celv-3.jpg");
@@ -62,6 +62,8 @@ $(".pasta-text-cellphone").css("display","inline-block");
 $(".number-cellphone").css("display","block");
 $(".number-web").css("display","none");
 $(".pasta-text").css("display","none");
+$(".tamanoubitiqui").removeClass("tamanoubitiqui");
+$(".tamanoluxul").removeClass("tamanoluxul");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
@@ -102,10 +104,10 @@ $('.carousel').carousel({
 
 
 $(function(){
-  if (screen.width < 500) {
+  if (screen.width < 600) {
     $("#logo").detach();
   }
-  if (screen.width > 500) {
+  if (screen.width > 600) {
     $("#logo2").css("display","none");
     $(window).scroll(function(){
       var aTop = 720;
