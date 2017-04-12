@@ -1,9 +1,15 @@
 var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
-$item.height($wHeight); 
-$item.addClass('img-responsive');
-// $item.addClass('full-screen');
+$item.height($wHeight);
+if (screen.width > 600) {
+  $item.addClass('img-responsive');
+$item.css("height","638");
+} 
+if (screen.width < 600) {
+    $item.addClass('full-screen');
+}
+
 
    window.onorientationchange = function() { 
         var orientation = window.orientation; 
