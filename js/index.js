@@ -21,6 +21,10 @@ $("#img1").attr("src","img/slider-1.jpg");
 $("#img2").attr("src","img/slider-2.jpg");
 $("#img3").attr("src","img/slider-3.jpg");
 $("#img4").attr("src","img/slider-4.jpg");
+$(".pasta-text-cellphone").css("display","none");
+$(".pasta-text").css("display","inline-block");
+$(".number-cellphone").css("display","none");
+$(".number-web").css("display","block");
 $("#mobile-img1").detach();
 $("#mobile-img2").detach();
 $(".col-xs-8").removeClass("col-xs-offset-2");
@@ -54,6 +58,10 @@ $("#RemoveText").removeClass("text-center");
 $("#RemoveText2").removeClass("text-center");
 $("#RemoveText3").removeClass("text-center");
 $(".bolita-rosa2").css("display","inline-block");
+$(".pasta-text-cellphone").css("display","inline-block");
+$(".number-cellphone").css("display","block");
+$(".number-web").css("display","none");
+$(".pasta-text").css("display","none");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+

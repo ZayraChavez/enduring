@@ -4,11 +4,27 @@ $item.eq(0).addClass('active');
 $item.height($wHeight); 
 $item.addClass('full-screen');
 
+
+   window.onorientationchange = function() { 
+        var orientation = window.orientation; 
+            switch(orientation) { 
+                case 0:
+                case 90:
+                case -90: window.location.reload(); 
+                break; }
+
+                }; 
+
+
 if (screen.width > 500) {
 $("#img1").attr("src","img/slideresp-1.jpg");
 $("#img2").attr("src","img/slideresp-2.jpg");
 $("#img3").attr("src","img/slideresp-3.jpg");
 $("#img4").attr("src","img/slideresp-4.jpg");
+$(".pasta-text-cellphone").css("display","none");
+$(".pasta-text").css("display","inline-block");
+$(".number-cellphone").css("display","none");
+$(".number-web").css("display","block");
 $("#mobile-img1").detach();
 $("#mobile-img2").detach();
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
@@ -32,6 +48,19 @@ $("#img3").attr("src","img/slider-mobv-3.jpg");
 $("#img4").attr("src","img/slider-mobv-4.jpg");
 $("#img5").attr("src","img/slider-mobv-5.jpg");
 $("#img6").attr("src","img/slider-mobv-6.jpg");
+$("#bose").removeClass("bose");
+$("#alarm").removeClass("bose");
+$("#dsc").removeClass("bose");
+$("#bose2").removeClass("bose");
+$("#netgear").removeClass("netgear");
+$("#RemoveText").removeClass("text-center");
+$("#RemoveText2").removeClass("text-center");
+$("#RemoveText3").removeClass("text-center");
+$(".bolita-rosa2").css("display","inline-block");
+$(".pasta-text-cellphone").css("display","inline-block");
+$(".number-cellphone").css("display","block");
+$(".number-web").css("display","none");
+$(".pasta-text").css("display","none");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+

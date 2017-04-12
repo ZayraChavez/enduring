@@ -655,6 +655,9 @@ textarea{
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: white !important;
 }
+.font-footer{
+    float: none;
+}
 .logoglobo
 {
     width: 77%;
@@ -713,6 +716,14 @@ footer h6{
     float: left;
     margin-left: 6%;
 }
+    .contact-phone-footer2 {
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        float: center;
+        margin-right: 1%;
+        
+    }
 .contact-email-footer{
     width: 40px;
     height: 40px;
@@ -720,10 +731,16 @@ footer h6{
     margin-right: 7px;
     margin-bottom: 10px;
     float: right;
-    /*margin-left: 2%;*/
+}
+.contact-email-footer2{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    float: none;
+    margin-right: 1%;
 }
 .separator-footer{
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .inline{
     display: inline-block;
@@ -835,6 +852,15 @@ footer h6{
 
 /*Queries*/
 @media screen and  (min-width:300px) and (max-width: 389px){
+    .we-mobile-esp{
+        font-size: 45px !important;
+    }
+    .contact-h6{
+        font-size: 20px;
+    }
+    .pasta-text-cellphone{
+        font-size: 12px !important;
+    }
     .special{
             vertical-align: top;
     }
@@ -997,7 +1023,7 @@ textarea::-webkit-input-placeholder{
     height: 20px !important;
 }
 .footer-above h6{
-font-size: 14px !important;
+    font-size: 18px !important;
 }
 
 }
@@ -1110,6 +1136,7 @@ font-size: 14px !important;
         float: left;
         margin-left: 15%;
     }
+
     .jump{
         display: block;
     }
