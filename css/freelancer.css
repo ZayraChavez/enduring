@@ -530,6 +530,38 @@ footer .footer-below {
     width: 186px;
     height: 37px;
  }
+  .tamanonetgear{
+    width: 200px;
+    height: 29px;
+ }
+ .tamanocisco{
+    width: 125px;
+    height: 74px;
+ }
+ .tamano2gig{
+    width: 138px;
+    height: 62px;
+ }
+ .tamanoalarm{
+    width: 200px;
+    height: 46px;
+ }
+ .tamanolts{
+    width: 138px;
+    height: 56px;
+ }
+ .tamanohoneywell{
+    width: 190px;
+    height: 42px;
+ }
+ .tamanodsc{
+    width: 154px;
+    height: 38px;
+ }
+ .tamanohikvision{
+    width: 200px;
+    height: 44px;
+ }
 /*#carouselButtons {
   margin-left: 100px;
   position: absolute;

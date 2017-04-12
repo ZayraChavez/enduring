@@ -69,6 +69,14 @@ $(".number-web").css("display","none");
 $(".pasta-text").css("display","none");
 $(".tamanoubitiqui").removeClass("tamanoubitiqui");
 $(".tamanoluxul").removeClass("tamanoluxul");
+$(".tamanonetgear").removeClass("tamanonetgear");
+$(".tamanocisco").removeClass("tamanocisco");
+$(".tamano2gig").removeClass("tamano2gig");
+$(".tamanoalarm").removeClass("tamanoalarm");
+$(".tamanolts").removeClass("tamanolts");
+$(".tamanohoneywell").removeClass("tamanohoneywell");
+$(".tamanodsc").removeClass("tamanodsc");
+$(".tamanohikvision").removeClass("tamanohikvision");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+
