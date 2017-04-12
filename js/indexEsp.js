@@ -2,11 +2,11 @@ var $item = $('.carousel .item');
 var $wHeight = $(window).height();
 $item.eq(0).addClass('active');
 $item.height($wHeight); 
-if (screen.width > 600) {
+if (screen.width > 700) {
   $item.addClass('img-responsive');
 $item.css("height","638");
 } 
-if (screen.width < 600) {
+if (screen.width < 700) {
     $item.addClass('full-screen');
 }
 
@@ -21,7 +21,7 @@ if (screen.width < 600) {
                 }; 
 
 
-if (screen.width > 600) {
+if (screen.width > 700) {
 $("#img1").attr("src","img/slideresp-1.jpg");
 $("#img2").attr("src","img/slideresp-2.jpg");
 $("#img3").attr("src","img/slideresp-3.jpg");
@@ -47,7 +47,17 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "</button>");
 
 }
-if (screen.width < 600) {
+
+if (screen.width > 500 && screen.width < 700) {
+      $("#img1").attr("src","img/slider-us-celh-1.jpg");
+      $("#img2").attr("src","img/slider-us-celh-2.jpg");
+      $("#img3").attr("src","img/slider-us-celh-3.jpg");
+      $("#img4").attr("src","img/slider-us-celh-4.jpg");
+      $("#img5").attr("src","img/slider-us-celh-5.jpg");
+      $("#img6").attr("src","img/slider-us-celh-6.jpg");
+  }
+
+if (screen.width < 500) {
 $("#img1").attr("src","img/slider-mobv-1.jpg");
 $("#img2").attr("src","img/slider-mobv-2.jpg");
 $("#img3").attr("src","img/slider-mobv-3.jpg");
@@ -77,6 +87,11 @@ $(".tamanolts").removeClass("tamanolts");
 $(".tamanohoneywell").removeClass("tamanohoneywell");
 $(".tamanodsc").removeClass("tamanodsc");
 $(".tamanohikvision").removeClass("tamanohikvision");
+$(".tamanopioneer").removeClass("tamanopioneer");
+$(".tamanoonkyo").removeClass("tamanoonkyo");
+$(".tamanoatlas").removeClass("tamanoatlas");
+$(".tamanobose").removeClass("tamanobose");
+$(".tamanoelura").removeClass("tamanoelura");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+

@@ -48,7 +48,17 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "</button>");
 
 }
-if (screen.width < 600) {
+
+if (screen.width > 500 && screen.width < 650) {
+    $("#img1").attr("src","img/slider-celh-1.jpg");
+$("#img2").attr("src","img/slider-celh-2.jpg");
+$("#img3").attr("src","img/slider-celh-3.jpg");
+$("#img4").attr("src","img/slider-celh-4.jpg");
+$("#img5").attr("src","img/slider-celh-5.jpg");
+$("#img6").attr("src","img/slider-celh-6.jpg");
+  }
+
+if (screen.width < 500) {
 $("#img1").attr("src","img/slider-celv-1.jpg");
 $("#img2").attr("src","img/slider-celv-2.jpg");
 $("#img3").attr("src","img/slider-celv-3.jpg");
@@ -78,6 +88,11 @@ $(".tamanolts").removeClass("tamanolts");
 $(".tamanohoneywell").removeClass("tamanohoneywell");
 $(".tamanodsc").removeClass("tamanodsc");
 $(".tamanohikvision").removeClass("tamanohikvision");
+$(".tamanopioneer").removeClass("tamanopioneer");
+$(".tamanoonkyo").removeClass("tamanoonkyo");
+$(".tamanoatlas").removeClass("tamanoatlas");
+$(".tamanobose").removeClass("tamanobose");
+$(".tamanoelura").removeClass("tamanoelura");
 $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='active'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='1'></li>"+
                 "<li data-target='#mycarousel' data-slide-to='2'></li>"+

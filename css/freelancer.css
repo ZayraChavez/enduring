@@ -562,6 +562,26 @@ footer .footer-below {
     width: 200px;
     height: 44px;
  }
+ .tamanopioneer{
+    width: 200px;
+    height: 40px;
+ }
+ .tamanoonkyo{
+    width: 200px;
+    height: 32px;
+ }
+ .tamanoatlas{
+    width: 162px;
+    height: 57px;
+ }
+ .tamanobose{
+    width: 200px;
+    height: 30px;
+ }
+ .tamanoelura{
+    width: 177px;
+    height: 45px;
+ }
 /*#carouselButtons {
   margin-left: 100px;
   position: absolute;
@@ -1253,6 +1273,12 @@ textarea::-webkit-input-placeholder{
 
 }
 @media screen and  (min-width:390px) and (max-width: 768px){
+    .special{
+            vertical-align: top;
+    }
+    .routing{
+        width: 89%;
+    }
     .paragraph-who {
     text-align: left;
     color: white;
