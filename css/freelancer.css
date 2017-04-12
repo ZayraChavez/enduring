@@ -835,6 +835,9 @@ footer h6{
 
 /*Queries*/
 @media screen and  (min-width:300px) and (max-width: 389px){
+    .special{
+            vertical-align: top;
+    }
     input[type="text"]::-webkit-input-placeholder {
   color: #002243;
   font-family:"DINCond-Bold";
