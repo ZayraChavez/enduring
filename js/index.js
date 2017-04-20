@@ -165,8 +165,8 @@ $(".elements").html("<li data-target='#mycarousel' data-slide-to='0' class='acti
                 "<span class='glyphicon glyphicon-pause'></span>"+
                 "</button>");
 }
-if (screen.width < 768) {
-  window.open ('us.html')
+if (screen.width <768) {
+  window.open ('us.html','_self')
 }
 
 $('.carousel img').each(function() {
