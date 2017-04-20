@@ -911,6 +911,23 @@ footer h6{
 }
 
 /*Queries*/
+
+/*iphone*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
+    .font-footer{
+        color: white !important;
+    }
+    .contact-h6{
+        color: white !important;
+    }
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : landscape) { 
+     .paragraph-who{
+            padding: 0 30px;
+            font-size: 18px;
+            color: white;
+        }
+}
 @media screen and  (min-width:250px) and (max-width: 320px){
     .navbar-brand {
     float: left;
